@@ -1,0 +1,1 @@
+./sysbench --table-size=10000000 --events=10000 --threads=128 --report-interval=10 --db-driver=pgsql --pgsql-user=postgres --pgsql-db=test /tmp/sysbench-1.10/share/sysbench/oltp_update_non_index.lua run
