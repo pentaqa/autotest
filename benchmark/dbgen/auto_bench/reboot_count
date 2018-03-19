@@ -1,0 +1,4 @@
+#!/bash/bin
+
+EXEC_COUNT=0
+echo -e "EXEC_COUNT=$EXEC_COUNT"
